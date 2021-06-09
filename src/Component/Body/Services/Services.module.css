@@ -1,0 +1,21 @@
+.Services {
+  text-align: center;
+  background-color: rgb(180, 178, 176);
+  display: inline-block;
+}
+
+.Services_center {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  column-gap: 5rem;
+  row-gap: 15px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.Services_center .service span {
+  color: rgb(192, 144, 86);
+  font-size: 40px;
+  margin-top: 18px;
+}

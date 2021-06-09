@@ -1,0 +1,9 @@
+.Rooms_Container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit ,minmax(280px,1fr));
+    column-gap: 12px;
+    row-gap: 16px;
+    align-items: center;
+    margin-top: 45px;
+    border-radius: 4px;
+}
